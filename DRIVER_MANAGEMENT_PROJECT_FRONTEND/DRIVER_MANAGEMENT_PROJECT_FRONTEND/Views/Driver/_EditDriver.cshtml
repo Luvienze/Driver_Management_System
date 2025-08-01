@@ -1,0 +1,95 @@
+﻿@using DRIVER_MANAGEMENT_PROJECT_FRONTEND.Dto.Enum
+@using DRIVER_MANAGEMENT_PROJECT_FRONTEND.Utils
+@using System.ComponentModel.DataAnnotations
+@Html.AntiForgeryToken()
+@{
+    var dayOffOptions = Enum.GetValues(typeof(Days)).Cast<Days>().Select(e => new SelectListItem
+    {
+        Value = ((int)e).ToString(),
+        Text = e.GetDisplayName()
+    }).ToList();
+
+    var cadreOptions = Enum.GetValues(typeof(CadreTypes)).Cast<CadreTypes>().Select(e => new SelectListItem
+    {
+        Value = ((int)e).ToString(),
+        Text = e.GetDisplayName()
+    }).ToList();
+}
+
+<form id="editDriverForm">
+    <input type="hidden" id="id" name="id">
+    <input type="hidden" id="chiefId" name="chiefId"> 
+
+    <div class="card border-primary mb-3">
+        <div class="card-header bg-primary text-white">
+            Personal Information
+        </div>
+        <div class="card-body">
+            <div class="row mb-3">
+                <div class="col-md-6">
+                    <label for="personFirstName" class="form-label">Ad</label>
+                    <input type="text" class="form-control" id="personFirstName" name="personFirstName" placeholder="Firstname" readonly>
+                </div>
+                <div class="col-md-6">
+                    <label for="personLastName" class="form-label">Soyad</label>
+                    <input type="text" class="form-control" id="personLastName" name="personLastName" placeholder="Lastname" readonly>
+                </div>
+            </div>
+            <div class="mb-3">
+                <label for="phoneNumber" class="form-label">Phone Number</label>
+                <input type="text" class="form-control" id="phoneNumber" name="phoneNumber" placeholder="0XXXXXXXXXX" pattern="[0][0-9]{10}" maxlength="11" readonly>
+            </div>
+            <div class="mb-3">
+                <label for="registrationNumber" class="form-label">Registration Number</label>
+                <input type="text" class="form-control" id="registrationNumber" name="registrationNumber" placeholder="Registration Number" readonly>
+            </div>
+        </div>
+    </div>
+
+    <div class="card border-secondary mb-3">
+        <div class="card-header bg-secondary text-white">
+            Driver Information
+        </div>
+        <div class="card-body">
+            <div class="row mb-3">
+                <div class="col-md-6">
+                    <label for="garage" class="form-label">Garage</label>
+                    <input type="text" class="form-control" id="editDriverGarage" name="garage" readonly />
+                </div>
+                <div class="col-md-6">
+                    <label for="chiefName" class="form-label">Chief</label>
+                    <input type="text" class="form-control" id="chiefName" name="chiefName" readonly /> 
+                </div>
+            </div>
+            <div class="row mb-3">
+                <div class="col-md-6">
+                    <label for="cadre" class="form-label">Cadre</label>
+                    <select class="form-select" id="cadre" name="cadre" required>
+                        <option value="" disabled selected>Choose Cadre</option>
+                        @foreach (var option in cadreOptions)
+                        {
+                            <option value="@option.Value">@option.Text</option>
+                        }
+                    </select>
+                </div>
+                <div class="col-md-6">
+                    <label for="dayOff" class="form-label">Day Off</label>
+                    <select class="form-select" id="dayOff" name="dayOff" required>
+                        <option value="" disabled selected>Choose Day Off</option>
+                        @foreach (var option in dayOffOptions)
+                        {
+                            <option value="@option.Value">@option.Text</option>
+                        }
+                    </select>
+                </div>
+            </div>
+            <div class="mb-3">
+                <label for="isActive" class="form-label">Is Active?</label>
+                <select class="form-select" id="isActive" name="isActive" required>
+                    <option value="true">Active</option>
+                    <option value="false">Passive</option>
+                </select>
+            </div>
+        </div>
+    </div>
+</form>

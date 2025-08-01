@@ -1,0 +1,72 @@
+﻿@using DRIVER_MANAGEMENT_PROJECT_FRONTEND.Dto.Enum
+@using DRIVER_MANAGEMENT_PROJECT_FRONTEND.Dtos.Enum
+@model List<DRIVER_MANAGEMENT_PROJECT_FRONTEND.Dto.TaskDto>
+
+@functions {
+    string GetStatusBadgeClass(Tasks status)
+    {
+        return status switch
+        {
+            Tasks.COMPLETED => "bg-success",
+            Tasks.IN_PROGRESS => "bg-warning",
+            Tasks.PLANNED => "bg-secondary",
+            Tasks.CANCELLED => "bg-danger",
+            _ => "bg-dark"
+        };
+    }
+
+    string GetDirectionName(int directionOrdinal)
+    {
+        if (Enum.IsDefined(typeof(Directions), directionOrdinal))
+            return ((Directions)directionOrdinal).ToString();
+        return "Unknown";
+    }
+}
+
+<div class="modal-body px-4 py-3" style="max-height: 70vh; overflow-y: auto;">
+    @if (Model != null && Model.Any())
+    {
+        <table class="table table-bordered table-striped align-middle text-center" style="min-width: 800px;">
+            <thead class="table-light">
+                <tr>
+                    <th style="white-space: nowrap;">Registration Number</th>
+                    <th style="white-space: nowrap;">Route Name</th>
+                    <th style="white-space: nowrap;">Line Code</th>
+                    <th style="white-space: nowrap;">Direction</th>
+                    <th style="white-space: nowrap;">Date of Start</th>
+                    <th style="white-space: nowrap;">Status</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var task in Model)
+                {
+                    <tr>
+                        <td>@task.RegistrationNumber</td>
+                        <td>@task.RouteName</td>
+                        <td>@task.LineCode</td>
+                        <td>@GetDirectionName(task.Direction)</td>
+                        <td>@task.DateOfStart.ToString("dd/MM/yyyy HH:mm")</td>
+                        @{
+                            var statusEnum = (Tasks)task.Status;
+                        }
+                        <td>
+                            <span class="badge @GetStatusBadgeClass(statusEnum)">
+                                @statusEnum.ToString()
+                            </span>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    }
+    else
+    {
+        <div class="alert alert-info text-center" role="alert">
+            No tasks available.
+        </div>
+    }
+</div>
+
+<div class="modal-footer px-4">
+    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+</div>

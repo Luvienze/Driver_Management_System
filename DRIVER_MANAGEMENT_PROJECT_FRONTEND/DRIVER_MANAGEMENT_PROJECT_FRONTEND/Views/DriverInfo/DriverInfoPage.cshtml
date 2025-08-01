@@ -1,0 +1,220 @@
+﻿@model DRIVER_MANAGEMENT_PROJECT_FRONTEND.Wrapper.PersonDriverRequestDto
+@using System.ComponentModel.DataAnnotations
+@using DRIVER_MANAGEMENT_PROJECT_FRONTEND.Dto.Enum
+@using DRIVER_MANAGEMENT_PROJECT_FRONTEND.Utils
+
+@{
+    Layout = "~/Views/Shared/_DriverInfoPageLayout.cshtml";
+    ViewData["Title"] = "Driver Details";
+}
+
+@section css {
+    <style>
+        .card {
+            border-radius: 0.5rem;
+            transition: all 0.3s ease;
+        }
+
+            .card:hover {
+                box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+            }
+
+        .card-header {
+            border-bottom: 2px solid #007bff;
+        }
+
+        .card-title {
+            font-weight: 600;
+        }
+
+        .img-fluid {
+            transition: transform 0.3s ease;
+        }
+
+            .img-fluid:hover {
+                transform: scale(1.05);
+            }
+
+        .badge {
+            font-size: 0.9rem;
+            padding: 0.5em 1em;
+        }
+
+        .table th {
+            background-color: #f8f9fa;
+            font-weight: 600;
+        }
+
+        .table td {
+            vertical-align: middle;
+        }
+
+        .breadcrumb-item a {
+            color: #007bff;
+        }
+
+        .breadcrumb-item.active {
+            color: #6c757d;
+        }
+
+        .container-fluid {
+            padding-left: 0;
+            padding-right: 0;
+        }
+
+        .content {
+            padding: 0 15px;
+        }
+
+        .task-id-column {
+            display: none;
+        }
+    </style>
+}
+
+<script>
+    var registrationNumber = '@(Model?.DriverDto?.RegistrationNumber ?? "")';
+</script>
+
+<!-- Main Content -->
+<section class="content">
+    <div class="container-fluid">
+        <div class="row">
+            <!-- Personal Information Card -->
+            <div class="col-md-6 mb-4">
+                <div class="card card-primary">
+                    <div class="card-header">
+                        <h3 class="card-title"><i class="fas fa-user mr-2"></i>Personal Information</h3>
+                    </div>
+                    <div class="card-body">
+                        <div class="row align-items-center">
+                            <div class="col-md-4 text-center mb-3 mb-md-0">
+                                <img id="driverImage"
+                                     class="img-fluid border border-primary"
+                                     src="@Model.PersonDto.ImageUrl"
+                                     alt="Driver Image"
+                                     style="width: 200px; height: 200px; object-fit: cover;  border-radius: 10px;"
+                                     onerror="this.src='/img/default-user.png';">
+                            </div>
+                            <div class="col-md-8">
+                                <dl class="row mb-0">
+                                    <dt class="col-sm-5 font-weight-bold">Full Name:</dt>
+                                    <dd class="col-sm-7" id="personalFullName">@Model.PersonDto.FirstName @Model.PersonDto.LastName</dd>
+
+                                    <dt class="col-sm-5 font-weight-bold">Gender:</dt>
+                                    <dd class="col-sm-7" id="personalGender">
+                                        @((Genders)Model.PersonDto.Gender)
+                                    </dd>
+
+
+                                    <dt class="col-sm-5 font-weight-bold">Date of Birth:</dt>
+                                    <dd class="col-sm-7" id="personalDob">@Model.PersonDto.DateOfBirth.ToString("dd/MM/yyyy")</dd>
+
+                                    <dt class="col-sm-5 font-weight-bold">Phone:</dt>
+                                    <dd class="col-sm-7" id="personalPhone">@Model.PersonDto.Phone</dd>
+
+                                    <dt class="col-sm-5 font-weight-bold">Address:</dt>
+                                    <dd class="col-sm-7" id="personalAddress">@Model.PersonDto.Address</dd>
+
+                                    <dt class="col-sm-5 font-weight-bold">Blood Group:</dt>
+                                    <dd class="col-sm-7" id="personalBloodGroup">
+                                        @((Enum.IsDefined(typeof(BloodGroups), Model.PersonDto.BloodGroup) ? ((BloodGroups)Model.PersonDto.BloodGroup).GetDisplayName() : "Unknown"))
+                                    </dd>
+                                </dl>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Driver Information Card -->
+            <div class="col-md-6 mb-4">
+                <div class="card card-info">
+                    <div class="card-header">
+                        <h3 class="card-title"><i class="fas fa-id-card mr-2"></i>Driver Information</h3>
+                    </div>
+                    <div class="card-body">
+                        <dl class="row mb-0">
+                            <dt class="col-sm-5 font-weight-bold">Registration Number:</dt>
+                            <dd class="col-sm-7" id="driverRegNumber">@Model.DriverDto.RegistrationNumber</dd>
+
+                            <dt class="col-sm-5 font-weight-bold">Garage:</dt>
+                            <dd class="col-sm-7" id="driverGarage">@Model.DriverDto.Garage</dd>
+
+                            <dt class="col-sm-5 font-weight-bold">Chief:</dt>
+                            <dd class="col-sm-7" id="driverChief">@Model.DriverDto.ChiefFirstName @Model.DriverDto.ChiefLastName</dd>
+
+                            <dt class="col-sm-5 font-weight-bold">Cadre:</dt>
+                            <dd class="col-sm-7" id="driverCadre">
+                                @((Enum.IsDefined(typeof(CadreTypes), Model.DriverDto.Cadre) ? ((CadreTypes)Model.DriverDto.Cadre).GetDisplayName() : "Unknown"))
+
+                            </dd>
+
+                            <dt class="col-sm-5 font-weight-bold">Day Off:</dt>
+                            <dd class="col-sm-7" id="driverDayOff">
+                                @((Enum.IsDefined(typeof(Days), Model.DriverDto.DayOff) ? ((Days)Model.DriverDto.DayOff).GetDisplayName() : "Unknown"))
+
+                            </dd>
+
+                            <dt class="col-sm-5 font-weight-bold">Status:</dt>
+                            <dd class="col-sm-7" id="driverStatus">
+                                @if (Model.DriverDto.IsActive)
+                                {
+                                    <span class="badge badge-success px-3 py-2">Active</span>
+                                }
+                                else
+                                {
+                                    <span class="badge badge-danger px-3 py-2">Inactive</span>
+                                }
+                            </dd>
+
+                            <dt class="col-sm-5 font-weight-bold">Start Date:</dt>
+                            <dd class="col-sm-7" id="driverStartDate">@Model.PersonDto.DateOfStart.ToString("dd/MM/yyyy")</dd>
+                        </dl>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Daily Tasks Table -->
+        <div class="row">
+            <div class="col-12">
+                <div class="card">
+                    <div class="card-header">
+                        <h3 class="card-title"><i class="fas fa-tasks mr-2"></i>Daily Tasks</h3>
+                    </div>
+                    <div class="card-body table-responsive p-0">
+                        <table id="dailyTasksTable" class="table table-bordered table-hover table-striped text-nowrap">
+                            <thead>
+                                <tr>
+                                    <th class="task-id-column">Task ID</th>
+                                    <th>Registration Number</th>
+                                    <th>Door No</th>
+                                    <th style="display: none;">Rota ID</th>
+                                    <th>Route</th>
+                                    <th>Line Code</th>
+                                    <th>Direction</th>
+                                    <th>Start Date</th>
+                                    <th>End Date</th>
+                                    <th>Passenger Count</th>
+                                    <th>Order Start</th>
+                                    <th>Order End</th>
+                                    <th>Chief Start</th>
+                                    <th>Chief End</th>
+                                    <th>Status</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <!-- Dynamic data loaded via JS -->
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+@section scripts {
+    <script src="~/js/person_driver_table/personDriverTable.js"></script>
+}

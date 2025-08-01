@@ -1,0 +1,69 @@
+﻿@model List<DRIVER_MANAGEMENT_PROJECT_FRONTEND.Dto.PersonDto>
+@using DRIVER_MANAGEMENT_PROJECT_FRONTEND.Dto.Enum
+@using DRIVER_MANAGEMENT_PROJECT_FRONTEND.Utils
+
+@{
+    ViewData["Title"] = "Person List";
+}
+
+<h2>Person List</h2>
+
+<link rel="stylesheet" href="https://cdn.datatables.net/1.13.6/css/jquery.dataTables.min.css" />
+
+<table id="personTable" class="display table table-striped">
+    <thead>
+        <tr>
+            <th>Full Name</th>
+            <th>Gender</th>
+            <th>Blood Group</th>
+            <th>Date of Birth</th>
+            <th>Phone</th>
+            <th>Address</th>
+            <th>Registration No</th>
+            <th>Date of Start</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var person in Model)
+        {
+            var bloodGroupEnum = (BloodGroups)person.BloodGroup;
+            <tr>
+                <td>@person.FirstName @person.LastName</td>
+                <td>@person.Gender</td>
+                <td>@bloodGroupEnum.GetDisplayName()</td>
+                <td>@person.DateOfBirth.ToString("dd/MM/yyyy")</td>
+                <td>@person.Phone</td>
+                <td>@person.Address</td>
+                <td>@person.RegistrationNumber</td>
+                <td>@person.DateOfStart.ToString("dd/MM/yyyy")</td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+<script src="https://cdn.datatables.net/1.13.6/js/jquery.dataTables.min.js"></script>
+
+<script>
+    $(document).ready(function () {
+        $('#personTable').DataTable({
+            "pageLength": 10,
+            "lengthMenu": [5, 10, 25, 50],
+            "order": [[0, 'asc']], 
+            "language": {
+                "search": "Search:",
+                "lengthMenu": "Show _MENU_ record",
+                "info": "_TOTAL_ from records _START_ - _END_ are shown",
+                "paginate": {
+                    "first": "First",
+                    "last": "Last",
+                    "next": "Next",
+                    "previous": "Previous"
+                },
+                "zeroRecords": "No found match types",
+                "infoEmpty": "No records",
+                "infoFiltered": "(_MAX_ filtered from max records)"
+            }
+        });
+    });
+</script>

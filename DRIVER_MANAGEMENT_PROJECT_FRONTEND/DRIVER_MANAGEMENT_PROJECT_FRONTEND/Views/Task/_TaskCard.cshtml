@@ -1,0 +1,88 @@
+﻿@model DRIVER_MANAGEMENT_PROJECT_FRONTEND.Dto.TaskDto
+
+<div class="card card-outline card-primary">
+    <div class="card-body container-fluid">
+        <!-- ✅ container-fluid eklendi -->
+        <div class="row gx-2 gy-2">
+            <!-- ✅ Boşluklar kontrol altında -->
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label>Registration Number</label>
+                    <input type="text" class="form-control w-100" id="RegistrationNumber" value="@Model.RegistrationNumber" readonly>
+                </div>
+                <div class="form-group">
+                    <label>Door Number</label>
+                    <input type="text" class="form-control w-100" id="DoorNo" value="@Model.DoorNo" readonly>
+                </div>
+                <div class="form-group">
+                    <label>Route Name</label>
+                    <input type="text" class="form-control w-100" id="RouteName" value="@Model.RouteName" readonly>
+                </div>
+                <div class="form-group">
+                    <label>Line Code</label>
+                    <input type="text" class="form-control w-100" id="LineCode" value="@Model.LineCode" readonly>
+                </div>
+                <div class="form-group">
+                    <label>Direction</label>
+                    <input type="text" class="form-control w-100" id="Direction" value="@Model.Direction" readonly>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label>Date of Start</label>
+                    <input type="text" class="form-control w-100" id="DateOfStart" value="@Model.DateOfStart.ToString("dd/MM/yyyy HH:mm")" readonly>
+                </div>
+                <div class="form-group">
+                    <label>Date of End</label>
+                    <input type="text" class="form-control w-100" id="DateOfEnd" value="@Model.DateOfEnd.ToString("dd/MM/yyyy HH:mm")" readonly>
+                </div>
+                <div class="form-group">
+                    <label>Passengers</label>
+                    <input type="text" class="form-control w-100" id="PassengerCount" value="@(Model.PassengerCount?.ToString() ?? "Yok")" readonly>
+                </div>
+                <div class="form-group">
+                    <label>Status</label>
+                    <input type="text" class="form-control w-100" id="Status" value="@Model.Status" readonly>
+                </div>
+            </div>
+        </div>
+
+        <div class="row mt-3 gx-2 gy-2">
+            <div class="col-12">
+                <div class="card card-outline card-info">
+                    <div class="card-header">
+                        <h3 class="card-title">Orer and Chief Schedules</h3>
+                    </div>
+                    <div class="card-body container-fluid">
+                        <div class="row gx-2 gy-2">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label>Orer Start</label>
+                                    <input type="text" class="form-control w-100" id="OrerStart" value="@Model.OrerStart.ToString("dd/MM/yyyy HH:mm")" readonly>
+                                </div>
+                                <div class="form-group">
+                                    <label>Orer End</label>
+                                    <input type="text" class="form-control w-100" id="OrerEnd" value="@Model.OrerEnd.ToString("dd/MM/yyyy HH:mm")" readonly>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label>Chief Start</label>
+                                    <input type="text" class="form-control w-100"
+                                           value="@(Model.ChiefStart.HasValue? Model.ChiefStart.Value.ToString("dd/MM/yyyy HH:mm") : "")"
+                                           readonly>
+                                </div>
+                                <div class="form-group">
+                                    <label>Chief End</label>
+                                    <input type="text" class="form-control w-100"
+                                           value="@(Model.ChiefEnd.HasValue? Model.ChiefEnd.Value.ToString("dd/MM/yyyy HH:mm") : "")"
+                                           readonly>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

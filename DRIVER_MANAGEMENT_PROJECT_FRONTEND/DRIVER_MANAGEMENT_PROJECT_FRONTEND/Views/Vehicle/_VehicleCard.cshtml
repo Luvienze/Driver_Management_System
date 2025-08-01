@@ -1,0 +1,98 @@
+﻿@model DRIVER_MANAGEMENT_PROJECT_FRONTEND.Dtos.VehicleDto
+@using DRIVER_MANAGEMENT_PROJECT_FRONTEND.Dtos.Enum
+@using DRIVER_MANAGEMENT_PROJECT_FRONTEND.Utils
+@using System.ComponentModel.DataAnnotations
+@using System.Reflection
+
+<div class="p-3 vehicle-info-box">
+    <h6 class="text-primary mb-3"><i class="fas fa-info-circle me-1"></i> Vehicle Details</h6>
+    <div class="d-flex flex-wrap gap-4">
+        <div class="info-item">
+            <small class="text-muted">Door No</small>
+            <p>@Model.DoorNo</p>
+        </div>
+        <div class="info-item">
+            <small class="text-muted">Capacity</small>
+            <p>@Model.Capacity</p>
+        </div>
+        <div class="info-item">
+            <small class="text-muted">Fuel Tank</small>
+            <p>@Model.FuelTank</p>
+        </div>
+        <div class="info-item">
+            <small class="text-muted">Plate</small>
+            <p>@Model.Plate</p>
+        </div>
+        <div class="info-item">
+            <small class="text-muted">Person On Foot</small>
+            <p>@Model.PersonOnFoot</p>
+        </div>
+        <div class="info-item">
+            <small class="text-muted">Person On Sit</small>
+            <p>@Model.PersonOnSit</p>
+        </div>
+        <div class="info-item">
+            <small class="text-muted">Suitable For Disabled</small><br />
+            @if (Model.SuitableForDisabled)
+            {
+                <div class="tag-box bg-success text-white">
+                    <i class="fas fa-check-circle me-1"></i> Suitable
+                </div>
+            }
+            else
+            {
+                <div class="tag-box bg-danger text-white">
+                    <i class="fas fa-times-circle me-1"></i> Not Suitable
+                </div>
+            }
+        </div>
+        <div class="info-item">
+            <small class="text-muted">Model Year</small>
+            <p>@Model.ModelYear</p>
+        </div>
+        <div class="info-item">
+            <small class="text-muted">Garage</small>
+            <p>@Model.GarageName</p>
+        </div>
+        <div class="info-item">
+            <label class="text-dark fw-semibold" style="font-size: 1rem;">Status</label><br />
+            <div class="tag-box bg-info text-dark">
+                @((VehicleStatuses)Model.Status)
+            </div>
+        </div>
+    </div>
+</div>
+
+<style>
+    .vehicle-info-box {
+        background-color: #fff;
+        border: 1px solid #dee2e6;
+        border-radius: 0.6rem;
+        box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+    }
+
+    .info-item {
+        min-width: 180px;
+        flex: 1 1 200px;
+    }
+
+        .info-item small {
+            font-size: 0.85rem;
+            color: #6c757d;
+        }
+
+        .info-item p {
+            font-size: 1.05rem;
+            margin: 0;
+            font-weight: 500;
+            color: #212529;
+        }
+
+    .tag-box {
+        padding: 0.45rem 0.75rem;
+        border-radius: 0.4rem;
+        font-size: 0.95rem;
+        display: inline-block;
+        margin-top: 2px;
+    }
+</style>

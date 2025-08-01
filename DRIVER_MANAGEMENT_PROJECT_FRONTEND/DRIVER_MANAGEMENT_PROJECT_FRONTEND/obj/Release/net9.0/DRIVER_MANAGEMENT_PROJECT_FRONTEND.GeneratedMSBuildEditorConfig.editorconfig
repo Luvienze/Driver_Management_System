@@ -1,0 +1,189 @@
+is_global = true
+build_property.TargetFramework = net9.0
+build_property.TargetFramework = net9.0
+build_property.TargetPlatformMinVersion = 
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = DRIVER_MANAGEMENT_PROJECT_FRONTEND
+build_property.RootNamespace = DRIVER_MANAGEMENT_PROJECT_FRONTEND
+build_property.ProjectDir = C:\Users\snmze\source\repos\DRIVER_MANAGEMENT_PROJECT_FRONTEND\DRIVER_MANAGEMENT_PROJECT_FRONTEND\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 9.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\snmze\source\repos\DRIVER_MANAGEMENT_PROJECT_FRONTEND\DRIVER_MANAGEMENT_PROJECT_FRONTEND
+build_property._RazorSourceGeneratorDebug = 
+build_property.EffectiveAnalysisLevelStyle = 9.0
+build_property.EnableCodeStyleSeverity = 
+
+[C:/Users/snmze/source/repos/DRIVER_MANAGEMENT_PROJECT_FRONTEND/DRIVER_MANAGEMENT_PROJECT_FRONTEND/Areas/Identity/Pages/Account/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/snmze/source/repos/DRIVER_MANAGEMENT_PROJECT_FRONTEND/DRIVER_MANAGEMENT_PROJECT_FRONTEND/Areas/Identity/Pages/Account/Logout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2dvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/snmze/source/repos/DRIVER_MANAGEMENT_PROJECT_FRONTEND/DRIVER_MANAGEMENT_PROJECT_FRONTEND/Areas/Identity/Pages/Account/Manage/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/snmze/source/repos/DRIVER_MANAGEMENT_PROJECT_FRONTEND/DRIVER_MANAGEMENT_PROJECT_FRONTEND/Areas/Identity/Pages/Account/Manage/PersonalData.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcUGVyc29uYWxEYXRhLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/snmze/source/repos/DRIVER_MANAGEMENT_PROJECT_FRONTEND/DRIVER_MANAGEMENT_PROJECT_FRONTEND/Areas/Identity/Pages/Account/Manage/_ManageNav.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcX01hbmFnZU5hdi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/snmze/source/repos/DRIVER_MANAGEMENT_PROJECT_FRONTEND/DRIVER_MANAGEMENT_PROJECT_FRONTEND/Areas/Identity/Pages/Account/Manage/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxNYW5hZ2VcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/snmze/source/repos/DRIVER_MANAGEMENT_PROJECT_FRONTEND/DRIVER_MANAGEMENT_PROJECT_FRONTEND/Areas/Identity/Pages/Account/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/snmze/source/repos/DRIVER_MANAGEMENT_PROJECT_FRONTEND/DRIVER_MANAGEMENT_PROJECT_FRONTEND/Areas/Identity/Pages/Account/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxfVmlld0ltcG9ydHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/snmze/source/repos/DRIVER_MANAGEMENT_PROJECT_FRONTEND/DRIVER_MANAGEMENT_PROJECT_FRONTEND/Areas/Identity/Pages/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZhbGlkYXRpb25TY3JpcHRzUGFydGlhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/snmze/source/repos/DRIVER_MANAGEMENT_PROJECT_FRONTEND/DRIVER_MANAGEMENT_PROJECT_FRONTEND/Areas/Identity/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/snmze/source/repos/DRIVER_MANAGEMENT_PROJECT_FRONTEND/DRIVER_MANAGEMENT_PROJECT_FRONTEND/Areas/Identity/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/snmze/source/repos/DRIVER_MANAGEMENT_PROJECT_FRONTEND/DRIVER_MANAGEMENT_PROJECT_FRONTEND/Helpers/_ChangeDriverActive.cshtml]
+build_metadata.AdditionalFiles.TargetPath = SGVscGVyc1xfQ2hhbmdlRHJpdmVyQWN0aXZlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/snmze/source/repos/DRIVER_MANAGEMENT_PROJECT_FRONTEND/DRIVER_MANAGEMENT_PROJECT_FRONTEND/Helpers/_DeleteDriver.cshtml]
+build_metadata.AdditionalFiles.TargetPath = SGVscGVyc1xfRGVsZXRlRHJpdmVyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/snmze/source/repos/DRIVER_MANAGEMENT_PROJECT_FRONTEND/DRIVER_MANAGEMENT_PROJECT_FRONTEND/Views/ArchivedTask/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXJjaGl2ZWRUYXNrXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/snmze/source/repos/DRIVER_MANAGEMENT_PROJECT_FRONTEND/DRIVER_MANAGEMENT_PROJECT_FRONTEND/Views/Driver/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRHJpdmVyXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/snmze/source/repos/DRIVER_MANAGEMENT_PROJECT_FRONTEND/DRIVER_MANAGEMENT_PROJECT_FRONTEND/Views/Driver/_AddDriver.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRHJpdmVyXF9BZGREcml2ZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/snmze/source/repos/DRIVER_MANAGEMENT_PROJECT_FRONTEND/DRIVER_MANAGEMENT_PROJECT_FRONTEND/Views/Driver/_EditDriver.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRHJpdmVyXF9FZGl0RHJpdmVyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/snmze/source/repos/DRIVER_MANAGEMENT_PROJECT_FRONTEND/DRIVER_MANAGEMENT_PROJECT_FRONTEND/Views/Driver/_TaskListCard.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRHJpdmVyXF9UYXNrTGlzdENhcmQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/snmze/source/repos/DRIVER_MANAGEMENT_PROJECT_FRONTEND/DRIVER_MANAGEMENT_PROJECT_FRONTEND/Views/Driver/_TaskNotFound.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRHJpdmVyXF9UYXNrTm90Rm91bmQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/snmze/source/repos/DRIVER_MANAGEMENT_PROJECT_FRONTEND/DRIVER_MANAGEMENT_PROJECT_FRONTEND/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/snmze/source/repos/DRIVER_MANAGEMENT_PROJECT_FRONTEND/DRIVER_MANAGEMENT_PROJECT_FRONTEND/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/snmze/source/repos/DRIVER_MANAGEMENT_PROJECT_FRONTEND/DRIVER_MANAGEMENT_PROJECT_FRONTEND/Views/Line/_LineCard.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGluZVxfTGluZUNhcmQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/snmze/source/repos/DRIVER_MANAGEMENT_PROJECT_FRONTEND/DRIVER_MANAGEMENT_PROJECT_FRONTEND/Views/Person/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVyc29uXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/snmze/source/repos/DRIVER_MANAGEMENT_PROJECT_FRONTEND/DRIVER_MANAGEMENT_PROJECT_FRONTEND/Views/Person/_PersonCard.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVyc29uXF9QZXJzb25DYXJkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/snmze/source/repos/DRIVER_MANAGEMENT_PROJECT_FRONTEND/DRIVER_MANAGEMENT_PROJECT_FRONTEND/Views/Route/_RouteCard.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm91dGVcX1JvdXRlQ2FyZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/snmze/source/repos/DRIVER_MANAGEMENT_PROJECT_FRONTEND/DRIVER_MANAGEMENT_PROJECT_FRONTEND/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/snmze/source/repos/DRIVER_MANAGEMENT_PROJECT_FRONTEND/DRIVER_MANAGEMENT_PROJECT_FRONTEND/Views/Shared/_Footer.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Gb290ZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/snmze/source/repos/DRIVER_MANAGEMENT_PROJECT_FRONTEND/DRIVER_MANAGEMENT_PROJECT_FRONTEND/Views/Shared/_LoginPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/snmze/source/repos/DRIVER_MANAGEMENT_PROJECT_FRONTEND/DRIVER_MANAGEMENT_PROJECT_FRONTEND/Views/Shared/_NavigationBar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9OYXZpZ2F0aW9uQmFyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/snmze/source/repos/DRIVER_MANAGEMENT_PROJECT_FRONTEND/DRIVER_MANAGEMENT_PROJECT_FRONTEND/Views/Shared/_Scripts.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9TY3JpcHRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/snmze/source/repos/DRIVER_MANAGEMENT_PROJECT_FRONTEND/DRIVER_MANAGEMENT_PROJECT_FRONTEND/Views/Shared/_Sidebar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9TaWRlYmFyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/snmze/source/repos/DRIVER_MANAGEMENT_PROJECT_FRONTEND/DRIVER_MANAGEMENT_PROJECT_FRONTEND/Views/Shared/_Styles.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9TdHlsZXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/snmze/source/repos/DRIVER_MANAGEMENT_PROJECT_FRONTEND/DRIVER_MANAGEMENT_PROJECT_FRONTEND/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/snmze/source/repos/DRIVER_MANAGEMENT_PROJECT_FRONTEND/DRIVER_MANAGEMENT_PROJECT_FRONTEND/Views/Task/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGFza1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/snmze/source/repos/DRIVER_MANAGEMENT_PROJECT_FRONTEND/DRIVER_MANAGEMENT_PROJECT_FRONTEND/Views/Task/_AddTask.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGFza1xfQWRkVGFzay5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/snmze/source/repos/DRIVER_MANAGEMENT_PROJECT_FRONTEND/DRIVER_MANAGEMENT_PROJECT_FRONTEND/Views/Task/_TaskCard.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGFza1xfVGFza0NhcmQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/snmze/source/repos/DRIVER_MANAGEMENT_PROJECT_FRONTEND/DRIVER_MANAGEMENT_PROJECT_FRONTEND/Views/Vehicle/_VehicleCard.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVmVoaWNsZVxfVmVoaWNsZUNhcmQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/snmze/source/repos/DRIVER_MANAGEMENT_PROJECT_FRONTEND/DRIVER_MANAGEMENT_PROJECT_FRONTEND/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/snmze/source/repos/DRIVER_MANAGEMENT_PROJECT_FRONTEND/DRIVER_MANAGEMENT_PROJECT_FRONTEND/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/snmze/source/repos/DRIVER_MANAGEMENT_PROJECT_FRONTEND/DRIVER_MANAGEMENT_PROJECT_FRONTEND/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-3c4wycpx1t

@@ -1,0 +1,22 @@
+﻿<!--TASK_NOT_FOUND-->
+<div class="modal fade" id="taskNotFoundModal" tabindex="-1" aria-labelledby="taskNotFoundModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="taskNotFoundModalLabel">Task Not Found</h5>
+                <button type="button" class="btn-close" id="taskNotFoundCloseBtn"</button>
+            </div>
+            <div class="modal-body">
+                Not found any tasks for this driver. Please assign a task to proceed.
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    document.getElementById("taskNotFoundCloseBtn").addEventListener('click', () => {
+        const modalElement = document.getElementById('taskNotFoundModal');
+        const modalInstance = bootstrap.Modal.getInstance(modalElement) || new bootstrap.Modal(modalElement);
+        modalInstance.hide();
+    });
+</script>

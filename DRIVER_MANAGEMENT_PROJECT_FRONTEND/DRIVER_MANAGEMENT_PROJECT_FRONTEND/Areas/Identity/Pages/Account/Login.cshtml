@@ -1,0 +1,83 @@
+﻿@page
+@model LoginModel
+@{
+    Layout = "~/Views/Shared/_LoginLayout.cshtml";
+    ViewData["Title"] = "Log In";
+}
+
+<div class="login-box">
+    <div class="login-logo">
+        <a href="" class="login-title"><b></b>Driver Management</a>
+    </div>
+
+
+    <div class="card">
+        <div class="card-body login-card-body">
+            <p class="login-box-msg">Please enter your information to log in.</p>
+
+            <form id="account" method="post">
+                <div asp-validation-summary="ModelOnly" class="text-danger" role="alert"></div>
+
+                <!-- Phone Number Input -->
+                <div class="input-group mb-3">
+                    <input asp-for="Input.PhoneNumber"
+                           class="form-control"
+                           placeholder="Phone Number"
+                           autocomplete="username"
+                           aria-required="true"
+                           maxlength="11"
+                           pattern="05[0-9]{9}"
+                           oninput="this.value = this.value.replace(/[^0-9]/g, '')"
+                           title="Phone number must start with 05 and must be 11 digits." />
+                    <div class="input-group-append">
+                        <div class="input-group-text">
+                            <span class="fas fa-phone"></span>
+                        </div>
+                    </div>
+                </div>
+                <span asp-validation-for="Input.PhoneNumber" class="text-danger"></span>
+
+                <!-- Registration Number Input -->
+                <div class="input-group mb-3">
+                    <input asp-for="Input.RegistrationNumber"
+                           class="form-control"
+                           placeholder="Registration Number"
+                           autocomplete="current-password"
+                           aria-required="true"
+                           maxlength="6"
+                           title="Regisration number must be 6 digits" />
+                    <div class="input-group-append">
+                        <div class="input-group-text">
+                            <span class="fas fa-id-card"></span>
+                        </div>
+                    </div>
+                </div>
+                <span asp-validation-for="Input.RegistrationNumber" class="text-danger"></span>
+
+
+                <!-- Remember Me -->
+                <div class="row mb-3">
+                    <div class="col-8">
+                        <div class="icheck-primary">
+                            <input asp-for="Input.RememberMe" type="checkbox" id="remember" />
+                            <label for="remember">
+                                @Html.DisplayNameFor(m => m.Input.RememberMe)
+                            </label>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Submit Button -->
+                <div class="row">
+                    <div class="col-12">
+                        <button id="login-submit" type="submit" class="btn btn-primary btn-block">Log In</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

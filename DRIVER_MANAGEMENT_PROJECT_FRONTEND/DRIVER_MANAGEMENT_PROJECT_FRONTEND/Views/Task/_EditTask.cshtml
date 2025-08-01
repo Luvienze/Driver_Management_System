@@ -1,0 +1,144 @@
+﻿@using DRIVER_MANAGEMENT_PROJECT_FRONTEND.Dto.Enum
+@using DRIVER_MANAGEMENT_PROJECT_FRONTEND.Dtos.Enum
+@using Microsoft.AspNetCore.Mvc.Rendering
+@{
+    var today = DateTime.Now.ToString("dd-MM-yyyy");
+}
+
+@{
+    var directionOptions = Enum.GetValues(typeof(Directions))
+                               .Cast<Directions>()
+                               .Select(e => new SelectListItem
+                               {
+                                   Value = ((int)e).ToString(),
+                                   Text = e.ToString()
+                               })
+                               .ToList();
+
+    var statusOptions = Enum.GetValues(typeof(Tasks))
+                            .Cast<Tasks>()
+                            .Select(e => new SelectListItem
+                            {
+                                Value = ((int)e).ToString(),
+                                Text = e.ToString()
+                            })
+                            .ToList();
+}
+
+<form id="editTaskForm">
+    <input type="hidden" id="id" name="id" />
+    <input type="hidden" id="dateOfStart" name="dateOfStart" />
+    <input type="hidden" id="dateOfEnd" name="dateOfEnd" />
+
+    <!-- GENERAL INFORMATION -->
+    <div class="card border-primary mb-3">
+        <div class="card-header bg-primary text-white">General Information</div>
+        <div class="card-body">
+            <div class="row mb-3">
+                <div class="col-md-6">
+                    <label for="registrationNumber" class="form-label">Registration Number</label>
+                    <select class="form-select" id="registrationNumber" name="registrationNumber" required>
+                        <option value="" disabled>Choose Driver</option>
+                    </select>
+                </div>
+                <div class="col-md-6">
+                    <label for="doorNo" class="form-label">Door Number</label>
+                    <select class="form-select" id="doorNo" name="doorNo" required>
+                        <option value="" disabled selected>Choose Vehicle</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="row mb-3">
+                <div class="col-md-6">
+                    <label for="routeId" class="form-label">Route</label>
+                    <select class="form-select" id="routeId" name="routeId" required>
+                        <option value="" disabled selected>Choose Route</option>
+                    </select>
+                </div>
+
+                <div class="col-md-6">
+                    <label for="direction" class="form-label">Direction</label>
+                    <select class="form-select" id="direction" name="direction" required>
+                        <option value="" disabled selected>Choose Direction</option>
+                        @foreach (var option in directionOptions)
+                        {
+                            <option value="@option.Value">@option.Text</option>
+                        }
+                    </select>
+                </div>
+            </div>
+
+            <div class="mb-3">
+                <label for="lineCode" class="form-label">Line Code</label>
+                <select class="form-select" id="lineCode" name="lineCode" required>
+                    <option value="" disabled selected>Choose Line</option>
+                </select>
+            </div>
+
+        </div>
+    </div>
+    <!-- TIME & STATUS INFORMATION -->
+    <div class="card border-secondary mb-3">
+        <div class="card-header bg-secondary text-white">Time and Status Information</div>
+        <div class="card-body">
+
+            <!-- Orer and Chief Times -->
+            <div class="row mb-3">
+                <div class="col-md-6">
+                    <label for="orerStart" class="form-label">Orer Start</label>
+                    <div class="input-group">
+                        <input type="time" class="form-control" id="orerStart" name="orerStart" readonly />
+                        <span class="input-group-text">@today</span>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <label for="orerEnd" class="form-label">Orer End</label>
+                    <div class="input-group">
+                        <input type="time" class="form-control" id="orerEnd" name="orerEnd" readonly />
+                        <span class="input-group-text">@today</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row mb-3">
+                <div class="col-md-6">
+                    <label for="chiefStart" class="form-label">Chief Start</label>
+                    <div class="input-group">
+                        <input type="time" class="form-control" id="chiefStart" name="chiefStart"  />
+                        <span class="input-group-text">@today</span>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <label for="chiefEnd" class="form-label">Chief End</label>
+                    <div class="input-group">
+                        <input type="time" class="form-control" id="chiefEnd" name="chiefEnd"  />
+                        <span class="input-group-text">@today</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Passenger Count and Status -->
+            <div class="row mb-3">
+                <div class="col-md-6">
+                    <label for="passengerCount" class="form-label">Passenger Count</label>
+                    <input type="number" class="form-control" id="passengerCount" name="passengerCount" min="0" />
+                </div>
+                <div class="col-md-6">
+                    <label for="status" class="form-label">Status</label>
+                    <select class="form-select" id="status" name="status" required>
+                        <option value="" disabled selected>Choose Status</option>
+                        @foreach (var option in statusOptions)
+                        {
+                            <option value="@option.Value">@option.Text</option>
+                        }
+                    </select>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</form>
+
+@await Html.PartialAsync("~/Helpers/_TaskTimeErrorModal.cshtml")
+

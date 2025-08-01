@@ -1,0 +1,45 @@
+﻿<div class="p-3 route-info-box">
+    <div class="d-flex align-items-center justify-content-start flex-wrap gap-5">
+        <div class="info-item">
+            <small class="text-muted d-block mb-1">Route Name</small>
+            <p class="mb-0 fw-semibold">@Model.RouteName</p>
+        </div>
+        <div class="info-item">
+            <small class="text-muted d-block mb-1">Distance</small>
+            <p class="mb-0 fw-semibold">@Model.Distance km</p>
+        </div>
+        <div class="info-item">
+            <small class="text-muted d-block mb-1">Duration</small>
+            <p class="mb-0 fw-semibold">@Model.Duration minutes</p>
+        </div>
+    </div>
+</div>
+
+<style>
+    .route-info-box {
+        background-color: #f8f9fa; 
+        border: 1px solid #dee2e6;
+        border-radius: 0.5rem;
+        padding: 1rem 1.5rem;
+        box-shadow: 0 0.15rem 0.5rem rgba(0,0,0,0.08);
+        max-width: 100%;
+    }
+
+    .info-item {
+        min-width: 150px;
+    }
+
+    small {
+        font-size: 0.85rem;
+        color: #6c757d;
+        font-weight: 600;
+    }
+
+    p {
+        font-size: 1.15rem;
+        margin-bottom: 0;
+        color: #212529;
+        font-weight: 600;
+    }
+
+</style>
