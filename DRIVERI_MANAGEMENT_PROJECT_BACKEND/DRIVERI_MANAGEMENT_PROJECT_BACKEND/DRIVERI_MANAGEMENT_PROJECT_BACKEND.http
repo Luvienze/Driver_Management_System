@@ -1,0 +1,6 @@
+@DRIVERI_MANAGEMENT_PROJECT_BACKEND_HostAddress = http://localhost:5237
+
+GET {{DRIVERI_MANAGEMENT_PROJECT_BACKEND_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

@@ -1,0 +1,15 @@
+C:\Users\snmze\source\repos\DRIVERI_MANAGEMENT_PROJECT_BACKEND\Persistance\bin\Debug\net9.0\Persistance.deps.json
+C:\Users\snmze\source\repos\DRIVERI_MANAGEMENT_PROJECT_BACKEND\Persistance\bin\Debug\net9.0\Persistance.dll
+C:\Users\snmze\source\repos\DRIVERI_MANAGEMENT_PROJECT_BACKEND\Persistance\bin\Debug\net9.0\Persistance.pdb
+C:\Users\snmze\source\repos\DRIVERI_MANAGEMENT_PROJECT_BACKEND\Persistance\bin\Debug\net9.0\Entities.dll
+C:\Users\snmze\source\repos\DRIVERI_MANAGEMENT_PROJECT_BACKEND\Persistance\bin\Debug\net9.0\Entities.pdb
+C:\Users\snmze\source\repos\DRIVERI_MANAGEMENT_PROJECT_BACKEND\Persistance\obj\Debug\net9.0\Persistance.csproj.AssemblyReference.cache
+C:\Users\snmze\source\repos\DRIVERI_MANAGEMENT_PROJECT_BACKEND\Persistance\obj\Debug\net9.0\Persistance.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\snmze\source\repos\DRIVERI_MANAGEMENT_PROJECT_BACKEND\Persistance\obj\Debug\net9.0\Persistance.AssemblyInfoInputs.cache
+C:\Users\snmze\source\repos\DRIVERI_MANAGEMENT_PROJECT_BACKEND\Persistance\obj\Debug\net9.0\Persistance.AssemblyInfo.cs
+C:\Users\snmze\source\repos\DRIVERI_MANAGEMENT_PROJECT_BACKEND\Persistance\obj\Debug\net9.0\Persistance.csproj.CoreCompileInputs.cache
+C:\Users\snmze\source\repos\DRIVERI_MANAGEMENT_PROJECT_BACKEND\Persistance\obj\Debug\net9.0\Persista.3F568332.Up2Date
+C:\Users\snmze\source\repos\DRIVERI_MANAGEMENT_PROJECT_BACKEND\Persistance\obj\Debug\net9.0\Persistance.dll
+C:\Users\snmze\source\repos\DRIVERI_MANAGEMENT_PROJECT_BACKEND\Persistance\obj\Debug\net9.0\refint\Persistance.dll
+C:\Users\snmze\source\repos\DRIVERI_MANAGEMENT_PROJECT_BACKEND\Persistance\obj\Debug\net9.0\Persistance.pdb
+C:\Users\snmze\source\repos\DRIVERI_MANAGEMENT_PROJECT_BACKEND\Persistance\obj\Debug\net9.0\ref\Persistance.dll

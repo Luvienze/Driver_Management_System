@@ -1,0 +1,35 @@
+2025-07-31 11:31:28.4466 ERROR Something went wrong: Unable to resolve service for type 'Services.ServiceManager' while attempting to activate 'Presentation.Controllers.VehicleController'.
+2025-07-31 11:40:07.4389 ERROR Something went wrong: Unable to resolve service for type 'Services.ServiceManager' while attempting to activate 'Presentation.Controllers.GarageController'.
+2025-07-31 11:40:14.8098 ERROR Something went wrong: Unable to resolve service for type 'Services.ServiceManager' while attempting to activate 'Presentation.Controllers.GarageController'.
+2025-07-31 14:11:26.1361 INFO No drivers found.
+2025-07-31 14:11:34.3129 ERROR Something went wrong: Unable to resolve service for type 'Services.ServiceManager' while attempting to activate 'Presentation.Controllers.GarageController'.
+2025-07-31 14:11:58.8922 INFO No lines found.
+2025-07-31 14:47:27.0974 ERROR Something went wrong: Unable to resolve service for type 'Services.ServiceManager' while attempting to activate 'Presentation.Controllers.VehicleController'.
+2025-07-31 14:47:30.4959 ERROR Something went wrong: Unable to resolve service for type 'Services.ServiceManager' while attempting to activate 'Presentation.Controllers.VehicleController'.
+2025-07-31 14:47:57.3788 ERROR Something went wrong: Unable to resolve service for type 'Services.ServiceManager' while attempting to activate 'Presentation.Controllers.VehicleController'.
+2025-07-31 14:55:56.9333 ERROR Something went wrong: Unable to resolve service for type 'Services.ServiceManager' while attempting to activate 'Presentation.Controllers.GarageController'.
+2025-07-31 14:58:20.2368 ERROR Something went wrong: Unable to resolve service for type 'Services.ServiceManager' while attempting to activate 'Presentation.Controllers.GarageController'.
+2025-07-31 14:58:24.8675 ERROR Something went wrong: Unable to resolve service for type 'Services.ServiceManager' while attempting to activate 'Presentation.Controllers.GarageController'.
+2025-07-31 15:03:26.5800 INFO Garage with registration number REG002 not found.
+2025-07-31 15:03:35.2531 INFO Garage with registration number REG001 not found.
+2025-07-31 15:03:39.8725 INFO Garage with registration number REG006 not found.
+2025-07-31 15:04:47.4792 INFO Vehicle with garage ID 1 and status 0 not found.
+2025-07-31 15:06:49.7058 INFO Chief with registration number REG008 not found.
+2025-07-31 15:07:13.0908 INFO Chief with registration number REG002 not found.
+2025-07-31 15:07:43.9955 INFO Retrieved person with registration number: REG015
+2025-07-31 15:07:55.5055 INFO Retrieved person with registration number: REG015
+2025-07-31 15:07:55.5290 INFO Driver with registration number 'REG015' not found.
+2025-07-31 15:08:05.6346 INFO Retrieved all persons from the database.
+2025-07-31 15:09:43.3996 INFO Route with name Avcılar-Zincirlikuyu Hattı not found.
+2025-07-31 15:09:49.2271 INFO Route with name Avcılar-Zincirlikuyu Hattı not found.
+2025-07-31 15:09:50.6223 INFO Route with name Avcılar-Zincirlikuyu Hattı not found.
+2025-07-31 15:10:55.1216 INFO Route with name Beşiktaş-Zincirlikuyu Hattı not found.
+2025-07-31 15:12:36.4024 INFO Route with name Beşiktaş-Zincirlikuyu Hattı not found.
+2025-07-31 15:12:58.7041 INFO Route with name Besiktas-Zincirlikuyu Hattı not found.
+2025-07-31 16:57:02.0079 INFO Retrieved person with registration number: REG002
+2025-07-31 16:57:09.0805 ERROR No person found with driver ID: 1
+2025-07-31 16:57:15.8815 ERROR No person found with driver ID: 15
+2025-07-31 16:57:19.1415 ERROR No person found with driver ID: 2
+2025-07-31 16:57:21.9443 ERROR No person found with driver ID: 3
+2025-07-31 16:57:25.1341 ERROR No person found with driver ID: 8
+2025-07-31 16:57:33.7347 INFO No lines found with line code AB1234.

@@ -1,0 +1,259 @@
+2025-08-01 09:45:39.3869 INFO No drivers found.
+2025-08-01 09:45:40.8703 INFO No tasks found for the specified date range.
+2025-08-01 09:51:30.3865 INFO No drivers found.
+2025-08-01 09:51:31.3082 INFO No tasks found for the specified date range.
+2025-08-01 09:51:31.4238 INFO No drivers found.
+2025-08-01 09:51:39.2276 INFO No drivers found.
+2025-08-01 09:51:39.9751 INFO No tasks found for the specified date range.
+2025-08-01 09:51:40.0143 INFO No drivers found.
+2025-08-01 09:51:40.1293 INFO No archived tasks found for the specified status.
+2025-08-01 09:51:40.6886 INFO No archived tasks found for the specified status.
+2025-08-01 10:23:04.2438 INFO No drivers found.
+2025-08-01 10:23:05.2936 INFO No tasks found for the specified date range.
+2025-08-01 10:23:05.5119 INFO No drivers found.
+2025-08-01 10:23:15.2454 INFO No archived tasks found for the specified status.
+2025-08-01 10:23:15.8430 INFO No archived tasks found for the specified status.
+2025-08-01 10:23:17.1305 INFO No tasks found for the specified date range.
+2025-08-01 10:23:17.9490 INFO No tasks found for the specified date range.
+2025-08-01 10:23:26.7697 INFO No drivers found.
+2025-08-01 10:23:27.4761 INFO No tasks found for the specified date range.
+2025-08-01 10:23:27.7082 INFO No drivers found.
+2025-08-01 10:23:32.7528 INFO No drivers found.
+2025-08-01 10:23:34.3834 INFO No drivers found.
+2025-08-01 10:23:39.7867 INFO No drivers found.
+2025-08-01 10:23:40.1254 INFO No tasks found for the specified date range.
+2025-08-01 10:23:40.1673 INFO No drivers found.
+2025-08-01 10:23:44.5147 INFO No archived tasks found for the specified status.
+2025-08-01 10:23:44.7361 INFO No archived tasks found for the specified status.
+2025-08-01 10:24:02.8608 INFO No archived tasks found for the specified status.
+2025-08-01 10:24:55.8186 INFO No tasks found for the specified date range.
+2025-08-01 10:24:56.2305 INFO No tasks found for the specified date range.
+2025-08-01 10:25:05.9000 INFO No drivers found.
+2025-08-01 10:25:06.9976 INFO No tasks found for the specified date range.
+2025-08-01 10:25:07.1164 INFO No drivers found.
+2025-08-01 10:31:07.2310 INFO No drivers found.
+2025-08-01 10:31:07.9147 INFO No tasks found for the specified date range.
+2025-08-01 10:31:07.9783 INFO No drivers found.
+2025-08-01 10:31:45.7018 INFO No tasks found for the specified date range.
+2025-08-01 10:31:50.1418 INFO No tasks found for the specified date range.
+2025-08-01 10:32:06.4802 INFO No archived tasks found for the specified status.
+2025-08-01 10:32:06.7190 INFO No archived tasks found for the specified status.
+2025-08-01 10:32:07.7954 INFO No tasks found for the specified date range.
+2025-08-01 10:32:08.0150 INFO No tasks found for the specified date range.
+2025-08-01 10:32:08.7539 INFO No tasks found for the specified date range.
+2025-08-01 10:32:21.4219 INFO No tasks found for the specified date range.
+2025-08-01 10:35:23.7063 INFO No tasks found for the specified date range.
+2025-08-01 10:38:08.2035 INFO No tasks found for the specified date range.
+2025-08-01 11:22:42.6914 INFO No tasks found for the specified date range.
+2025-08-01 11:25:47.8440 INFO No tasks found for the specified date range.
+2025-08-01 11:32:44.9470 INFO No tasks found for the specified date range.
+2025-08-01 11:32:52.2593 INFO No tasks found for the specified date range.
+2025-08-01 11:33:44.6034 INFO No tasks found for the specified date range.
+2025-08-01 14:10:57.0218 INFO No tasks found for the specified date range.
+2025-08-01 14:11:12.1910 INFO No archived tasks found for the specified status.
+2025-08-01 14:11:12.5617 INFO No archived tasks found for the specified status.
+2025-08-01 14:11:22.8337 INFO No tasks found for the specified date range.
+2025-08-01 14:11:23.0729 INFO No tasks found for the specified date range.
+2025-08-01 14:11:24.1077 INFO No tasks found for the specified date range.
+2025-08-01 14:11:31.6404 INFO No tasks found for the specified date range.
+2025-08-01 14:11:38.2847 INFO Chief with registration number REG300 not found.
+2025-08-01 14:11:57.6024 INFO No tasks found for the specified date range.
+2025-08-01 14:15:03.0644 INFO No tasks found for the specified date range.
+2025-08-01 14:16:45.2372 INFO No tasks found for the specified date range.
+2025-08-01 14:16:47.5772 INFO Retrieved person with registration number: REG003
+2025-08-01 14:16:55.4665 INFO Retrieved person with registration number: REG300
+2025-08-01 14:16:58.3454 INFO Retrieved person with registration number: REG301
+2025-08-01 14:17:00.4234 INFO Retrieved person with registration number: REG092
+2025-08-01 14:17:05.8552 INFO Retrieved person with registration number: REG067
+2025-08-01 14:17:07.4952 INFO Retrieved person with registration number: REG033
+2025-08-01 14:17:11.4974 INFO Retrieved person with registration number: REG300
+2025-08-01 14:17:13.0219 INFO No tasks found for the specified date range.
+2025-08-01 14:17:13.1866 INFO No tasks found for the specified date range.
+2025-08-01 14:17:14.4049 INFO No tasks found for the specified date range.
+2025-08-01 14:17:20.0704 INFO Driver with ID 4 updated successfully to active status: True.
+2025-08-01 14:18:02.7758 INFO No tasks found for the specified date range.
+2025-08-01 14:18:06.8742 INFO Driver with ID 5 updated successfully to active status: True.
+2025-08-01 14:24:06.3555 INFO No tasks found for the specified date range.
+2025-08-01 14:24:15.3099 INFO Driver with ID 9 updated successfully to active status: True.
+2025-08-01 14:26:52.1256 INFO No tasks found for the specified date range.
+2025-08-01 14:26:57.2556 INFO Driver with ID 11 updated successfully to active status: True.
+2025-08-01 14:27:06.8708 INFO Driver with ID 11 updated successfully to active status: False.
+2025-08-01 14:27:10.1949 INFO Chief with registration number REG019 not found.
+2025-08-01 14:31:20.8387 INFO No tasks found for the specified date range.
+2025-08-01 14:31:27.1955 INFO No tasks found for the specified date range.
+2025-08-01 14:31:48.8796 INFO No archived tasks found for the specified status.
+2025-08-01 14:31:49.1119 INFO No archived tasks found for the specified status.
+2025-08-01 14:31:50.0832 INFO No tasks found for the specified date range.
+2025-08-01 14:33:55.5413 INFO No tasks found for the specified date range.
+2025-08-01 14:35:26.8313 INFO No tasks found for the specified date range.
+2025-08-01 14:37:36.5800 INFO No tasks found for the specified date range.
+2025-08-01 14:37:51.9130 INFO Retrieved person with registration number: REG017
+2025-08-01 14:38:49.6265 INFO Retrieved person with registration number: REG017
+2025-08-01 14:39:27.6258 INFO No tasks found for the specified date range.
+2025-08-01 14:39:37.2953 INFO Retrieved person with registration number: REG018
+2025-08-01 14:40:48.2269 INFO No tasks found for the specified date range.
+2025-08-01 14:43:19.8047 INFO No tasks found for the specified date range.
+2025-08-01 14:43:28.1140 INFO Retrieved person with registration number: REG017
+2025-08-01 14:46:22.2718 INFO No tasks found for the specified date range.
+2025-08-01 14:55:36.1419 INFO No tasks found for the specified date range.
+2025-08-01 14:55:36.9965 INFO No tasks found for registration number REG300 in the specified date range.
+2025-08-01 14:55:40.9493 INFO No tasks found for registration number REG083 in the specified date range.
+2025-08-01 14:55:42.3988 INFO No tasks found for registration number REG050 in the specified date range.
+2025-08-01 14:55:43.7325 INFO No tasks found for registration number REG067 in the specified date range.
+2025-08-01 14:55:45.2525 INFO No tasks found for registration number REG033 in the specified date range.
+2025-08-01 14:59:46.0151 INFO No tasks found for the specified date range.
+2025-08-01 15:06:56.6226 INFO No tasks found for the specified date range.
+2025-08-01 15:06:58.2144 DEBUG Sent chief =>Entities.DataTransferObjects.ChiefDto
+2025-08-01 15:10:03.0409 INFO No tasks found for the specified date range.
+2025-08-01 15:10:09.2763 INFO No tasks found for the specified date range.
+2025-08-01 15:10:55.6698 INFO No tasks found for the specified date range.
+2025-08-01 15:10:57.0913 INFO chief:Entities.DataTransferObjects.ChiefDto
+2025-08-01 15:12:10.4305 INFO No tasks found for the specified date range.
+2025-08-01 15:12:12.1952 INFO chief:Entities.DataTransferObjects.ChiefDto
+2025-08-01 15:12:19.7542 INFO No tasks found for the specified date range.
+2025-08-01 15:12:21.1626 INFO chief:Entities.DataTransferObjects.ChiefDto
+2025-08-01 15:12:30.3078 INFO Driver with ID 5 updated successfully to active status: True.
+2025-08-01 15:12:31.4505 INFO chief:Entities.DataTransferObjects.ChiefDto
+2025-08-01 15:12:42.0933 INFO chief:Entities.DataTransferObjects.ChiefDto
+2025-08-01 15:13:06.3819 INFO chief:Entities.DataTransferObjects.ChiefDto
+2025-08-01 15:13:16.6266 INFO chief:Entities.DataTransferObjects.ChiefDto
+2025-08-01 15:13:22.4956 INFO No tasks found for the specified date range.
+2025-08-01 15:13:24.3136 INFO chief:Entities.DataTransferObjects.ChiefDto
+2025-08-01 15:14:37.8963 INFO chief:Entities.DataTransferObjects.ChiefDto
+2025-08-01 15:16:43.3595 INFO Driver with ID 4 updated successfully to active status: True.
+2025-08-01 15:16:44.8705 INFO chief:Entities.DataTransferObjects.ChiefDto
+2025-08-01 15:18:13.2305 INFO No archived tasks found for the specified status.
+2025-08-01 15:18:13.5407 INFO No archived tasks found for the specified status.
+2025-08-01 15:20:30.5670 INFO No tasks found for the specified date range.
+2025-08-01 15:20:34.5130 INFO No archived tasks found for the specified status.
+2025-08-01 15:20:59.1300 INFO No archived tasks found for the specified status.
+2025-08-01 15:43:57.8946 INFO No tasks found for the specified date range.
+2025-08-01 15:43:58.6342 INFO No archived tasks found for the specified status.
+2025-08-01 15:43:58.9681 INFO No archived tasks found for the specified status.
+2025-08-01 15:44:23.7113 INFO No archived tasks found for the specified status.
+2025-08-01 15:44:50.3013 INFO No archived tasks found for the specified status.
+2025-08-01 15:46:09.3989 INFO No archived tasks found for the specified status.
+2025-08-01 15:49:04.1976 INFO No archived tasks found for the specified status.
+2025-08-01 15:49:04.1976 INFO No tasks found for the specified date range.
+2025-08-01 15:49:04.4445 INFO No tasks found for the specified date range.
+2025-08-01 15:49:06.1825 INFO No tasks found for the specified date range.
+2025-08-01 15:49:06.3477 INFO No tasks found for the specified date range.
+2025-08-01 15:49:07.3648 INFO No tasks found for the specified date range.
+2025-08-01 15:54:12.0515 INFO No tasks found for the specified date range.
+2025-08-01 15:54:12.5822 INFO No tasks found for the specified date range.
+2025-08-01 15:54:14.6239 INFO No tasks found for the specified date range.
+2025-08-01 15:55:12.5335 INFO No tasks found for the specified date range.
+2025-08-01 15:55:13.0165 INFO No tasks found for the specified date range.
+2025-08-01 15:55:15.3003 INFO No tasks found for the specified date range.
+2025-08-01 15:55:45.0782 INFO No tasks found for the specified date range.
+2025-08-01 15:57:08.0300 INFO No tasks found for the specified date range.
+2025-08-01 15:57:08.5864 INFO No tasks found for the specified date range.
+2025-08-01 15:57:16.2409 INFO No tasks found for the specified date range.
+2025-08-01 15:57:18.5105 INFO No tasks found for the specified date range.
+2025-08-01 15:57:18.9306 INFO No tasks found for the specified date range.
+2025-08-01 15:57:19.8877 INFO No tasks found for the specified date range.
+2025-08-01 16:00:14.7068 INFO No tasks found for the specified date range.
+2025-08-01 16:00:15.2250 INFO No tasks found for the specified date range.
+2025-08-01 16:00:17.0564 INFO No tasks found for the specified date range.
+2025-08-01 16:00:46.9344 INFO No tasks found for the specified date range.
+2025-08-01 16:00:47.5155 INFO No tasks found for the specified date range.
+2025-08-01 16:01:10.7971 INFO No tasks found for the specified date range.
+2025-08-01 16:03:03.8724 INFO No tasks found for the specified date range.
+2025-08-01 16:03:04.3324 INFO No tasks found for the specified date range.
+2025-08-01 16:03:04.6746 INFO No tasks found for the specified date range.
+2025-08-01 16:03:05.4244 INFO No tasks found for the specified date range.
+2025-08-01 16:08:14.5975 INFO No tasks found for the specified date range.
+2025-08-01 16:08:16.5799 INFO No tasks found for the specified date range.
+2025-08-01 16:08:16.9615 INFO No tasks found for the specified date range.
+2025-08-01 16:08:17.7632 INFO No tasks found for the specified date range.
+2025-08-01 16:08:17.8374 ERROR Invalid person ID provided.
+2025-08-01 16:11:37.5275 INFO No tasks found for the specified date range.
+2025-08-01 16:11:38.0948 INFO No tasks found for the specified date range.
+2025-08-01 16:11:39.5571 INFO No tasks found for the specified date range.
+2025-08-01 16:11:39.7306 INFO Chief with id 0 not found.
+2025-08-01 16:12:50.0450 INFO No tasks found for the specified date range.
+2025-08-01 16:12:50.6550 INFO No tasks found for the specified date range.
+2025-08-01 16:12:51.5529 INFO No tasks found for the specified date range.
+2025-08-01 16:12:51.6450 INFO Chief with id 0 not found.
+2025-08-01 16:13:18.4220 INFO No tasks found for the specified date range.
+2025-08-01 16:13:19.1531 INFO No tasks found for the specified date range.
+2025-08-01 16:13:21.5310 INFO No tasks found for the specified date range.
+2025-08-01 16:13:38.5293 INFO Chief with id 0 not found.
+2025-08-01 16:13:56.7379 INFO No tasks found for the specified date range.
+2025-08-01 16:13:57.6896 INFO No tasks found for the specified date range.
+2025-08-01 16:13:58.0260 INFO No tasks found for the specified date range.
+2025-08-01 16:13:58.7844 INFO No tasks found for the specified date range.
+2025-08-01 16:17:38.5620 INFO No tasks found for the specified date range.
+2025-08-01 16:17:40.7107 INFO No tasks found for the specified date range.
+2025-08-01 16:17:41.3235 INFO No tasks found for the specified date range.
+2025-08-01 16:17:42.1095 INFO No tasks found for the specified date range.
+2025-08-01 16:19:01.2698 INFO No tasks found for the specified date range.
+2025-08-01 16:19:01.5308 INFO No tasks found for the specified date range.
+2025-08-01 16:19:02.0752 INFO No tasks found for the specified date range.
+2025-08-01 16:19:02.5332 INFO No tasks found for the specified date range.
+2025-08-01 16:19:06.0942 INFO Chief with id 0 not found.
+2025-08-01 16:19:24.2920 INFO No tasks found for the specified date range.
+2025-08-01 16:19:24.6759 INFO No tasks found for the specified date range.
+2025-08-01 16:19:25.8856 INFO No tasks found for the specified date range.
+2025-08-01 16:20:37.1833 INFO Chief with id 0 not found.
+2025-08-01 16:20:43.4697 INFO No tasks found for the specified date range.
+2025-08-01 16:20:43.9907 INFO No tasks found for the specified date range.
+2025-08-01 16:20:44.7370 INFO No tasks found for the specified date range.
+2025-08-01 16:20:50.6851 INFO Chief with id 0 not found.
+2025-08-01 16:23:38.9893 INFO No archived tasks found for the specified status.
+2025-08-01 16:23:39.4977 INFO No archived tasks found for the specified status.
+2025-08-01 16:23:40.4349 INFO No tasks found for the specified date range.
+2025-08-01 16:23:42.4296 INFO Retrieved person with registration number: REG300
+2025-08-01 16:23:45.5116 INFO Driver with ID 4 updated successfully to active status: True.
+2025-08-01 16:23:52.5167 INFO No archived tasks found for the specified status.
+2025-08-01 16:23:52.8261 INFO No archived tasks found for the specified status.
+2025-08-01 16:23:53.8488 INFO No tasks found for the specified date range.
+2025-08-01 16:23:54.1570 INFO No tasks found for the specified date range.
+2025-08-01 16:24:16.2717 INFO No tasks found for the specified date range.
+2025-08-01 16:24:20.6683 INFO Chief with id 0 not found.
+2025-08-01 16:24:38.8161 INFO No tasks found for the specified date range.
+2025-08-01 16:24:42.0494 INFO No tasks found for the specified date range.
+2025-08-01 16:24:42.3530 INFO No tasks found for the specified date range.
+2025-08-01 16:24:44.6670 INFO No tasks found for the specified date range.
+2025-08-01 16:24:47.5300 INFO Retrieved person with registration number: REG083
+2025-08-01 16:24:50.0979 INFO Retrieved person with registration number: REG050
+2025-08-01 16:24:57.6108 INFO No tasks found for the specified date range.
+2025-08-01 16:24:57.9107 INFO No tasks found for the specified date range.
+2025-08-01 16:28:17.8572 INFO No tasks found for the specified date range.
+2025-08-01 16:29:46.1812 INFO No tasks found for the specified date range.
+2025-08-01 16:29:46.7759 INFO No tasks found for the specified date range.
+2025-08-01 16:29:47.1113 INFO No tasks found for the specified date range.
+2025-08-01 16:29:47.8521 INFO No tasks found for the specified date range.
+2025-08-01 16:30:41.1281 INFO No tasks found for the specified date range.
+2025-08-01 16:30:42.1156 INFO No tasks found for the specified date range.
+2025-08-01 16:30:43.3320 INFO No tasks found for the specified date range.
+2025-08-01 16:33:13.8400 INFO No tasks found for the specified date range.
+2025-08-01 16:33:14.6464 INFO No tasks found for the specified date range.
+2025-08-01 16:33:15.3870 INFO No tasks found for the specified date range.
+2025-08-01 16:34:31.9417 INFO No tasks found for the specified date range.
+2025-08-01 16:34:32.9241 INFO No tasks found for the specified date range.
+2025-08-01 16:34:39.0051 INFO No tasks found for the specified date range.
+2025-08-01 16:34:41.3281 INFO No tasks found for the specified date range.
+2025-08-01 16:34:42.2606 INFO No tasks found for the specified date range.
+2025-08-01 16:34:42.6586 INFO No tasks found for the specified date range.
+2025-08-01 16:39:04.7268 INFO No tasks found for the specified date range.
+2025-08-01 16:39:05.2224 INFO No tasks found for the specified date range.
+2025-08-01 16:39:06.9045 INFO No tasks found for the specified date range.
+2025-08-01 16:41:49.3447 INFO No tasks found for the specified date range.
+2025-08-01 16:41:51.9704 INFO No tasks found for the specified date range.
+2025-08-01 16:41:52.3938 INFO No tasks found for the specified date range.
+2025-08-01 16:41:53.3138 INFO No tasks found for the specified date range.
+2025-08-01 16:44:37.9113 INFO No tasks found for the specified date range.
+2025-08-01 16:44:40.3017 INFO No tasks found for the specified date range.
+2025-08-01 16:44:41.0184 INFO No tasks found for the specified date range.
+2025-08-01 16:44:41.5820 INFO No tasks found for the specified date range.
+2025-08-01 16:47:38.9422 INFO No tasks found for the specified date range.
+2025-08-01 16:47:41.8794 INFO No tasks found for the specified date range.
+2025-08-01 16:51:03.4398 INFO No tasks found for the specified date range.
+2025-08-01 16:51:04.0479 INFO No tasks found for the specified date range.
+2025-08-01 16:51:04.6581 INFO No tasks found for the specified date range.
+2025-08-01 16:51:05.1064 INFO No tasks found for the specified date range.
+2025-08-01 16:52:44.9347 INFO No tasks found for the specified date range.
+2025-08-01 16:52:45.3939 INFO No tasks found for the specified date range.
+2025-08-01 16:52:46.9868 INFO No tasks found for the specified date range.
+2025-08-01 16:53:54.9079 INFO No tasks found for the specified date range.
